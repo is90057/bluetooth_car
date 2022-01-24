@@ -41,9 +41,12 @@ void loop()
     case '3':              //當接收到的字元為3，車子右轉
       Right();
     break;
+
+    case '0':
+      Stop();
     
     default:               //當所接收到的字元非以上所述，車子停止
-    Stop();
+      Stop();
     break;
   }
 }
